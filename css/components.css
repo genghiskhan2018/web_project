@@ -1,0 +1,71 @@
+#map {
+    height: 500px;
+    width: 50%;
+}
+
+body {
+    padding-top: 58px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.logo {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.logo-container {
+    background: url("../img/rhde.jpg") no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+
+p.slogan {
+    font-size: 1.3em;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+p.slogan span {
+    font-size: 1.5em;
+    color: orangered;
+    font-weight: bold;
+}
+
+
+.main-container {
+    background-color: white;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.footer-site {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.footer-site div.container {
+    background-color: white;
+    padding-bottom: 10px;
+    border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+}
+img.acomodar{
+    width: 100%;
+}
+.articles{
+    display: block;
+    text-align: center;
+    transition: all .2s ease-in-out;
+}
+
+.articles:hover{
+    background-color: orangered;
+    color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    transform: scale(1.1); 
+}
