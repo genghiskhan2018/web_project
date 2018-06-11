@@ -1,20 +1,41 @@
+/*
+GOOGLE FONTS
+font-family: 'Metal Mania', cursive;
+font-family: 'IM Fell Great Primer', serif;
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Metal Mania', cursive;
+}
+
+* {
+    font-family: 'IM Fell Great Primer', serif;
+}
+
 #map {
     height: 500px;
     width: 50%;
 }
 
 body {
-    padding-top: 58px;
+    padding-top: 69px;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
 .logo {
-    width: 30%;
+    width: 25%;
     margin: 0 auto;
 }
 
 .logo-container {
-    background: url("../img/rhde.jpg") no-repeat fixed center;
+    border-top-right-radius: 0.2em;
+    border-top-left-radius: 0.2em;
+    background: url("../img/bg-background2.jpg") no-repeat fixed top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -24,18 +45,29 @@ body {
 }
 
 p.slogan {
-    font-size: 1.3em;
+    font-size: 2rem;
     text-align: center;
     color: white;
     font-weight: bold;
 }
 
-p.slogan span {
-    font-size: 1.5em;
+p.slogan span,
+    {
+    font-size: 1.5rem;
+}
+
+span {
+    font-family: 'Metal Mania', cursive;
     color: orangered;
     font-weight: bold;
 }
 
+.logo-top h1,
+.logo-top {
+    font-size: 1.6rem;
+    padding: 0;
+    margin: 0;
+}
 
 .main-container {
     background-color: white;
@@ -54,18 +86,39 @@ p.slogan span {
     border-bottom-right-radius: 0.5em;
     border-bottom-left-radius: 0.5em;
 }
-img.acomodar{
+
+img.acomodar {
     width: 100%;
 }
-.articles{
+
+.articles {
     display: block;
+    border-radius: 0.7em;
     text-align: center;
     transition: all .2s ease-in-out;
 }
 
-.articles:hover{
+h3 {
+    background-color: orange;
+    width: 100%;
+    text-align: center;
+}
+
+.articles:hover {
     background-color: orangered;
     color: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.6);
-    transform: scale(1.1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.1);
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+li.nav-item a {
+    border: 3px solid transparent;
+}
+
+ul li:hover>a {
+    border-bottom-color: orangered;
 }

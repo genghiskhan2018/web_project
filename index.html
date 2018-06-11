@@ -9,21 +9,25 @@
     <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
         crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer|Metal+Mania" rel="stylesheet">
     <title>Intizom Calisthenics</title>
 </head>
 
 <body>
     <!--****************************INICIO DISEÑO****************************-->
     <header class="header-site">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="img/logo.svg" width="150" height="30" alt="logo">
+                <a class="navbar-brand logo-top" href="#">
+                    <h1>
+                        <img class="logo-menu" src="img/logo.svg" alt="logo">Intizom</h1>
                 </a>
+                <!--navbar-brand-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <!--navbar-toggler-->
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
@@ -37,15 +41,23 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Entrenadores</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Perfil</a>
+                        <li class="nav-item	dropdown">
+                            <a class="nav-link	dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">Perfil</a>
+                            <div class="dropdown-menu navbar-dark" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Iniciar Sesion</a>
+                                <a class="dropdown-item" href="#">Registrarme</a>
+                            </div>
+                            <!--dropdown-menu-->
                         </li>
                     </ul>
+                    <!--navbar-nav-->
                 </div>
+                <!--navbar-collapse-->
             </div>
+            <!--container-->
         </nav>
-
-        <!--menu-->
+        <!--navbar-->
     </header>
     <!--header-site-->
 
@@ -119,37 +131,31 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
+                    <h3>Facebook</h3>
                     <iframe class="hidden" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fintizomcr%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId=1545214755606245"
                         width="100%" height="500px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"
                         allow="encrypted-media"></iframe>
                 </div>
                 <!--facebook-iframe-->
-                <div id="map col-md-4">
+                <div class="col-md-4">
+                    <div class="ubication">
+                        <h3>
+                            <span>Donde</span> estamos</h3>
+                        <div id="map"></div>
+                    </div>
                 </div>
                 <!--google-maps-location-->
-                <div class="col-md-4">
-                    <nav class="menu">
-                        <ul>
-                            <li>
-                                home
-                            </li>
-                            <li>
-                                classes
-                            </li>
-                            <li>
-                                trainers
-                            </li>
-                            <li>
-                                contact
-                            </li>
-                        </ul>
-                        <!--ul-->
-                    </nav>
-                    <!--menu-->
+                <div class="col-md-4 contact">
+                    <h3>Contactenos</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quam in. Delectus mollitia minima
+                        ex, quae facere molestiae id asperiores quos hic laborum placeat, a dolore, aliquid cumque accusamus
+                        consequuntur?
+                    </p>
                 </div>
-                <!--ul-->
             </div>
-            <!--row-->
+            <!--ul-->
+        </div>
+        <!--row-->
         </div>
         <!--container-->
     </footer>
