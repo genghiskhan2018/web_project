@@ -93,7 +93,7 @@ img.acomodar {
 
 .articles {
     display: block;
-    border-radius: 0.7em;
+    border-radius: 0.3em;
     text-align: center;
     transition: all .2s ease-in-out;
 }
