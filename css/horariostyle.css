@@ -23,6 +23,11 @@ body {
 * {
     font-family: 'IM Fell Great Primer', serif;
 }
-h1 {
+
+
+
+h1,
+h2,
+h3 {
     font-family: 'Metal Mania', cursive;
 }
