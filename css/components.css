@@ -80,11 +80,9 @@ span {
     padding-bottom: 30px;
 }
 
-.footer-site div.container {
+.footer-site{
     background-color: white;
     padding-bottom: 10px;
-    border-bottom-right-radius: 0.5em;
-    border-bottom-left-radius: 0.5em;
 }
 
 img.acomodar {
@@ -121,4 +119,17 @@ li.nav-item a {
 
 ul li:hover>a {
     border-bottom-color: orangered;
+}
+.login{
+    border: 3px solid transparent;
+    color: grey;
+}
+div.dropdown-menu a:hover{
+    border-bottom-color: orangered;
+    background-color: transparent;
+    color: white;
+}
+
+div.dropdown-menu{
+    background-color: transparent;
 }
