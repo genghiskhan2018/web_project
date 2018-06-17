@@ -1,6 +1,7 @@
 body {
-    padding-top: 69px;
+    padding-top: 100px;
     background-color: rgba(0, 0, 0, 0.7);
+    
 }
 
 .logo {
@@ -20,11 +21,24 @@ body {
     padding-bottom: 15%;
 }
 
-* {
-    font-family: 'IM Fell Great Primer', serif;
+
+
+.row {
+    font-family: 'Metal Mania', cursive;
+    font-size: large;
+    color: orange;
+    border-bottom: 2px solid white;
 }
 
+.col-md-2 {
+    text-align: center;
+    margin: 4px;   
+}
 
+.col-md-3 {
+    text-align: center;
+    margin: 4px;  
+}
 
 h1,
 h2,
