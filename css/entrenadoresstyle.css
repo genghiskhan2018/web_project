@@ -9,16 +9,14 @@ body {
     margin: 0 auto;
 }
 
-.logo-container {
-    border-top-right-radius: 0.2em;
-    border-top-left-radius: 0.2em;
-    background: url("../img/bg-background3.jpg") no-repeat fixed top;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding-top: 10%;
-    padding-bottom: 15%;
+.navbar-brand{
+
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
 }
 
 h1{
