@@ -1,0 +1,26 @@
+body {
+    padding-top: 100px;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+
+.logo {
+    width: 25%;
+    margin: 0 auto;
+}
+
+.logo-container {
+    border-top-right-radius: 0.2em;
+    border-top-left-radius: 0.2em;
+    background: url("../img/bg-background3.jpg") no-repeat fixed top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+
+h1{
+    font-family: 'Metal Mania', cursive;
+}
