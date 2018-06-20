@@ -1,0 +1,51 @@
+body {
+    padding-top: 100px;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+
+.logo {
+    width: 25%;
+    margin: 0 auto;
+}
+
+.logo-container {
+    border-top-right-radius: 0.2em;
+    border-top-left-radius: 0.2em;
+    background: url("../img/bg-background3.jpg") no-repeat fixed top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+
+
+
+.row {
+    font-family: 'Metal Mania', cursive;
+    font-size: large;
+    color: orange;
+    border-bottom: 2px solid white;
+}
+
+.col-md-2 {
+    text-align: center;
+    margin: 4px;   
+}
+
+.col-md-3 {
+    text-align: center;
+    margin: 4px;  
+}
+
+h2{
+    color: orange;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Metal Mania', cursive;
+}
