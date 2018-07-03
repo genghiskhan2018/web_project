@@ -1,0 +1,212 @@
+#registro{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+#imgAvatar{
+    height: 150px;
+    background: url("../img/logo.svg")no-repeat center center;
+
+}
+
+
+
+.inputText{
+    margin-top: 20px;
+    font-size: x-large;
+    
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    color: white;
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(127, 136, 141);
+    font-family:  'Exo', sans-serif;
+}
+
+
+
+
+#btnLogin {
+    margin-top: 20px;
+    font-size: x-large;
+    
+    background-color: rgb(255, 66, 19);
+    width: 100%;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(127, 136, 141);
+    font-family:  'Exo', sans-serif;
+    
+}
+
+
+#nombre{
+    
+    background-color: rgb(0, 0, 0);
+    color: rgb(127, 136, 141);
+    border-style: solid;
+    border-color: rgb(127, 136, 141);
+    margin: 0 auto;
+    width: 40%;
+    margin-bottom: 20px;
+    padding: 8px;
+    
+}
+#titulo1{
+font-size: 2em;
+position: relative;
+width: 80%;
+margin: auto;
+text-align: center;
+margin-bottom: 20px;
+}
+
+#apellidos{
+    
+    background-color: rgb(0, 0, 0);
+    color: rgb(127, 136, 141);
+    border-style: solid;
+    border-color: rgb(127, 136, 141);
+    margin: 0 auto;
+    width:40%;
+    margin: 0 auto;
+    padding: 8px;
+    margin-bottom: 20px;
+   
+}
+
+#mail{
+    background-color: rgb(0, 0, 0);
+    color: rgb(127, 136, 141);
+    border-style: solid;
+    border-color: rgb(127, 136, 141);
+    margin: 0 auto;
+    width:85%;
+    margin: 0 auto;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+#clave{
+    background-color: rgb(0, 0, 0);
+    color: rgb(127, 136, 141);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(127, 136, 141);
+    margin: 0 auto;
+    width: 85%;
+    
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+#tituloLogin{
+    color: darkblue;
+    margin: auto;
+    width: 20%;
+    margin: auto;
+
+}
+#btnRegistro{
+    margin-top: 8px;
+    font-size: x-large;
+    
+    background-color: rgb(255, 66, 19);
+    width: 100%;
+    color: white;
+    position: relative;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(127, 136, 141);
+    font-family:  'Exo', sans-serif;
+    align-self: center;
+    
+    
+    
+}
+
+.loginDiv{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    flex-flow: row-reverse;
+
+
+
+}
+h1{
+    font-family: 'Metal Mania', sans-serif;
+    font-size: 2em;
+    position: relative;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#linkInicio
+{
+    text-decoration: none;
+}
+#btnInicioSesion{
+    margin-top: 10px;
+    font-size: x-large;
+    background-color: rgb(255, 66, 19);
+    width: 100%;
+    color: white;
+    position: relative;
+    border-style: solid;
+    border-width: 2px;
+    border-color:rgb(127, 136, 141);
+    font-family:  'Exo', sans-serif;
+    
+    
+}
+
+#btnRegistro2{
+    margin-top: 20px;
+    font-size: x-large;
+    
+    background-color: rgb(255, 66, 19);
+    width: 100%;
+    color: white;
+    position: relative;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(127, 136, 141);
+    font-family:  'Exo', sans-serif;
+    
+}
+
+
+#linkRegistro{
+    text-decoration: none;
+}
+
+#cbxRecordarme{
+    margin-top: 20px;   
+    
+}
+
+#pregunta{
+    position: relative;
+    text-align: center;
+    font-family:  'Exo', sans-serif;
+}
+#linkPassword{
+    padding: 8px;
+    font-family:  'Exo', sans-serif;
+   
+}
+
+body{
+    background: url("../img/bg-background.jpg")no-repeat;
+    background-size: cover;
+    font-family:  'exo', sans-serif;
+    color: white;
+}
