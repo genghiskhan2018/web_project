@@ -22,11 +22,12 @@ h6 {
     width: 50%;
 }
 
-body {
-    padding-top: 69px;
+body{
     background-color: rgba(0, 0, 0, 0.7);
 }
-
+body.posicion {
+    padding-top: 69px;
+}
 .logo {
     width: 20%;
     margin: 0 auto;
@@ -156,4 +157,24 @@ article a{
 article a:hover{
     text-decoration: none;
     color: white;
+}
+
+.centrar{
+    display: block;
+    text-align: center;
+}
+.solo-centrar{
+    text-align: center;
+}
+.logo-img{
+    width: 200px;
+}
+.a-style,
+.a-style:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.border-style{
+    border-radius: 0.4em;
 }

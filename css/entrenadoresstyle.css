@@ -9,14 +9,11 @@ body {
     margin: 0 auto;
 }
 
-.navbar-brand{
-
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 0;
+.col-md-12{
+    color: white;
     text-align: center;
-    margin: auto;
+    image-orientation: initial;
+    font-family: 'Metal Mania', cursive;
 }
 
 h1{

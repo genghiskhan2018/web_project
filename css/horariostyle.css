@@ -10,6 +10,13 @@ body {
 }
 
 
+.mensaje{
+        font-size: large;
+        text-align: center;
+        margin: 20px;
+        color: orange;
+}
+
 .row {
     
     font-size: large;
@@ -17,7 +24,7 @@ body {
     border-bottom: 2px solid white;
 }
 
-.col-md-2, .col-md-3  {
+.col-md-1  {
     text-align: center;
     margin: 4px;   
 }
