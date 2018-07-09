@@ -1,0 +1,31 @@
+h1 {
+    font-family: 'Metal Mania', cursive;
+    text-align: center;
+}
+h2,h3 {
+    font-family: 'IM Fell Great Primer', serif;
+}
+#imgIcono {
+    height: 150px;
+    background: url("../img/logo.svg")no-repeat center center;
+}
+body{
+    background: url("../img/003.jpg")no-repeat;
+    background-size: cover;
+    font-family:  'exo', sans-serif;
+    color: white;
+}
+span {
+    color: orangered;
+}
+#caja {
+    width: 400px;
+    height: 150px;
+    margin: auto;
+}
+h2{
+    text-align: center;
+}
+#subcaja {
+    margin-top: -7px;
+}
