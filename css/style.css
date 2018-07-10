@@ -184,3 +184,9 @@ img{
 iframe.hidden{
     height: 400px;
 }
+
+img-galeria{
+    width: 100%;
+    height: 30%;
+    margin: 30px 30px;
+}
