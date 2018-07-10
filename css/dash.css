@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+h1 {
+    font-family: 'Metal Mania', cursive;
+    text-align: center;
+}
+#imgIcono {
+    height: 150px;
+    background: url("../img/logo.svg")no-repeat center center;
+}

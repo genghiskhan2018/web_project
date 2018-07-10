@@ -139,5 +139,28 @@ main #formulario form a:hover{
     color: rgb(184, 124, 81);
     border-bottom: 1px solid rgb(184, 124, 81);;
 }
+main #eliminar{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 80px; 
+    text-align: center;
+    transition: all .4s ease;
+}
 
+main #eliminar a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgb(18, 92, 189);
+    border-radius: 20px;
+    transition: all .4s ease;
+    background: rgb(18, 92, 189);
+    margin-bottom: 50px;
+}
+main #eliminar a:hover{
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: red;
+    font-size: 20px;
+}
 
