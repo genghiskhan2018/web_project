@@ -9,13 +9,39 @@ body {
     margin: 0 auto;
 }
 
-.col-md-12{
-    color: white;
-    text-align: center;
-    image-orientation: initial;
-    font-family: 'Metal Mania', cursive;
-}
 
 h1{
     font-family: 'Metal Mania', cursive;
+    text-align: center;
+    color: white;
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    margin: 15px;
+    padding: 15px;
+    color: orangered;
+}
+.container{
+    font-family: 'Metal Mania', cursive;
+    text-align: center;
+    font-size: large;
+    margin: 30px;
+    padding: 30px;
+}
+
+.foto{
+    margin: 20px;
+    padding: 20px;
+}
+
+#A1{
+    font-size: larger;
+    color: white;
+}
+#imgAlfonso{
+    width: 470px;
 }
