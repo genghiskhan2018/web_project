@@ -19,14 +19,14 @@ h6 {
 
 #map {
     height: 500px;
-    width: 50%;
+    width: 100%;
 }
 
 body{
     background-color: rgba(0, 0, 0, 0.7);
 }
 body.posicion {
-    padding-top: 69px;
+    padding-top: 62px;
 }
 .logo {
     width: 20%;
@@ -177,4 +177,10 @@ article a:hover{
 
 .border-style{
     border-radius: 0.4em;
+}
+img{
+    width: 100%;
+}
+iframe.hidden{
+    height: 400px;
 }
