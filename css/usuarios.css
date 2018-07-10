@@ -40,9 +40,7 @@ header #opciones_avanz a{
 
 header #opciones_avanz a:hover{
     cursor: pointer;
-    text-decoration: underline;
     border: 1px solid white;
-    transform: rotate(10deg);
 }
 
 
