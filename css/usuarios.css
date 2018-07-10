@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+h1 {
+    font-family: 'Metal Mania', cursive;
+    text-align: center;
+}
+#imgIcono {
+    height: 150px;
+    background: url("../img/logo.svg")no-repeat center center;
+}
+body{
+    background: url("../img/001.jpg")no-repeat;
+    background-size: cover;
+
+}
+
+/* HEADER */
+header #opciones_avanz{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 70px;
+    display: inline-block;
+    position: fixed;
+    left: 39%;
+    margin-top: 20px;
+}
+
+header #opciones_avanz a{
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgb(18, 92, 189);
+    border-radius: 20px;
+    transition: all .4s ease;
+    background: rgb(18, 92, 189);
+    box-shadow: 0 0 10px rgba(#000,0.42);
+}
+
+header #opciones_avanz a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    border: 1px solid white;
+    transform: rotate(10deg);
+}
+
+
+/* MAIN */
+
+main{
+    width: 100%;
+}
+
+main #imagen_user{
+    width: 20%;
+    margin: auto;
+    margin-bottom: 35px;
+}
+main #imagen_user img{
+    width: 100%;
+    border-radius: 50%;
+    display: block;
+    transition: all .4s ease;
+
+}
+main #imagen_user img:hover{
+    transform: scale(.9) skew(0);
+    box-shadow: 0 0 20px rgba(#000,0.42);
+}
+main #opciones{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 80px; 
+    text-align: center;
+    transition: all .4s ease;
+}
+
+main #opciones a{
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgb(18, 92, 189);
+    border-radius: 20px;
+    transition: all .4s ease;
+    background: rgb(18, 92, 189);
+}
+main #opciones a:hover{
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+main #formulario {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+main #formulario form{
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+main #formulario form label{
+    color:rgb(139, 45, 7);
+    font-size: 20px;
+    border: 1px solid rgb(139, 45, 7);
+    padding: 10px;
+    display: inline-block;
+    margin-bottom:12px; 
+    border-radius: 30px;
+}
+
+main #formulario form input{
+    padding: 15px;
+    border-radius: 30px;
+    border: 1px solid rgb(18, 92, 189);
+    font-size: 18px;
+    text-align: center;
+    transition: all .4s ease;
+    width: 10%;
+}
+
+main #formulario form input:hover{
+    color: gray;
+    width: 20%;
+    border: 1px solid rgb(18, 189, 55);
+}
+
+main #formulario form a{
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: chocolate;
+    padding: 10px;
+    border-bottom: 1px solid chocolate;
+    transition: all .4s ease;
+}
+main #formulario form a:hover{
+    color: rgb(184, 124, 81);
+    border-bottom: 1px solid rgb(184, 124, 81);;
+}
+
+
