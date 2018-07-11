@@ -1,11 +1,26 @@
 *{
     box-sizing: border-box;
 }
-h1 {
+header h1 {
     font-family: 'Metal Mania', cursive;
     text-align: center;
+    color:rgba(44, 44, 44, 0.384);
 }
 #imgIcono {
     height: 150px;
     background: url("../img/logo.svg")no-repeat center center;
+}
+#contenedor {
+    display: flex;
+    flex-direction: column;
+}
+.col-md-6, .col-lg-6{
+    padding: 30px;
+    margin: 15px;
+}
+body {
+    background: url("../img/007.jpg") repeat;
+}
+.p1 {
+    color: red;
 }
