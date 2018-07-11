@@ -21,6 +21,7 @@ header h1 {
 body {
     background: url("../img/007.jpg") repeat;
 }
-.p1 {
-    color: red;
+#contenido1,#contenido2{  
+    width: 550px;
+    float: left;
 }
