@@ -4,14 +4,22 @@ body {
     
 }
 
+* {
+    font-family: 'IM Fell Great Primer', serif;
+}
+
+
+h1,h2,h3{
+    font-family: 'Metal Mania', cursive;
+}
+
 .logo {
     width: 25%;
     margin: 0 auto;
 }
 
 
-h1{
-    font-family: 'Metal Mania', cursive;
+h1{ 
     text-align: center;
     color: white;
     width: 75%;
@@ -21,17 +29,20 @@ h1{
 }
 
 h2{
-    margin: 10px;
-    padding: 10px;
+    font-size: larger;
     color: orangered;
 }
-.container-fluid{
-    font-family: 'Metal Mania', cursive;
-    text-align: center;
-    font-size: large;
+
+h3{
+    font-size: larger;
+    color: white;
+}
+
+
+
+.container{
     margin: 20px;
     padding: 20px;
-    
 }
 
 .row{
@@ -43,10 +54,7 @@ h2{
     padding: 20px;
 }
 
-h3{
-    font-size: larger;
-    color: white;
-}
+
 #imgAlfonso{
     width: 290px;
 }
